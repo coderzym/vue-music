@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
+import router from './router/index'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+// 引入公共css文件
+import './assets/common.css'
+
+createApp(App)
+  .use(router)
+  .mount('#app')

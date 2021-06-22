@@ -13,3 +13,7 @@
 1. 听歌功能与网易云音乐保持一致
 
 2. 支持一键换肤
+
+### 原型链接
+
+`https://www.figma.com/file/okLwTZ6GGWVzV6VZUO78MO/%E8%B6%A3%E5%90%AC?node-id=10%3A3`

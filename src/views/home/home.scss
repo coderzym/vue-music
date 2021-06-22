@@ -1,0 +1,11 @@
+.contain {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+
+  .default_img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+  }
+}
