@@ -1,25 +1,15 @@
-# vue-music
+### 项目说明
 
-## Project setup
-```
-npm install
-```
+现在对`github`上的老项目`music`用`vue3`重写，暂时不上`ts`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+老项目地址: `https://github.com/coderzym/music`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+新项目地址：`https://github.com/coderzym/vue-music`
 
-### Lints and fixes files
-```
-npm run lint
-```
+后台接口：`https://github.com/coderzym/NeteaseCloudMusicApi`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-"# vue-music" 
+### 功能说明
+
+1. 听歌功能与网易云音乐保持一致
+
+2. 支持一键换肤
