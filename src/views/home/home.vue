@@ -1,7 +1,11 @@
 <template>
   <div class="contain">
-    <img class="default_img"
-         :src="defaultImg" />
+    <div class="head">
+      <img class="default_img"
+           :src="defaultImg" />
+      <el-input v-model="input"
+                placeholder="请输入内容"></el-input>
+    </div>
   </div>
 </template>
 
@@ -11,7 +15,8 @@ import { reactive, toRefs } from 'vue'
 export default {
   setup () {
     const state = reactive({
-      defaultImg: require('../../assets/default.jpg')
+      defaultImg: require('../../assets/default.jpg'),
+      input: ""
     })
 
     return {
